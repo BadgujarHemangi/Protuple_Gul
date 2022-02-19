@@ -5,7 +5,9 @@ def hello():
 def name():
     print("name is hema")
 root=Tk()
-root.geometry("675x435")
+root.geometry("644x432")
+
+
 frame=Frame(root,borderwidth=6,bg="pink",relief=RAISED)
 frame.pack(side=LEFT,anchor=NW)
 
